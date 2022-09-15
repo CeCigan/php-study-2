@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+            text-align: left;
+            word-spacing: 5px;
+        }
+        .mrg{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <form action = "script.php" method = "post">
+        <label><b>Задача 1</b></label><br>
+        <label>Радиус круга</label> <input type = "text" name = "radius" class = "mrg"><br> 
+        <input type="submit" value = "Ok"> <input type = "reset" value = "Отмена" class = "">
+    </form>
+
+    <form action = "s2.php" method = "post">
+        <label><b>Задача 3</b></label><br>
+        <label>1й катет</label> <input type = "text" name = "katet" class = "mrg"><br>
+        <label>2й катет</label> <input type = "text" name = "katet2" class = "mrg"><br>
+        <input type="submit" value = "Ok"> <input type = "reset" value = "Отмена" class = "">
+    </form>
+
+    <form action = "s3.php" method = "post">
+        <label><b>Задача 4</b></label><br>
+        <label>координата x.1</label> <input type = "text" name = "x1" class = "mrg"><br>
+        <label>координата x.2</label> <input type = "text" name = "x2" class = "mrg"><br>
+        <label>координата x.3</label> <input type = "text" name = "x3" class = "mrg"><br>
+        <label>координата y.1</label> <input type = "text" name = "y1" class = "mrg"><br>
+        <label>координата y.2</label> <input type = "text" name = "y2" class = "mrg"><br>
+        <label>координата y.3</label> <input type = "text" name = "y3" class = "mrg"><br>
+        <input type="submit" value = "Ok"> <input type = "reset" value = "Отмена" class = "">
+    </form>
+
+    <form action = "s4.php" method = "post">
+        <label><b>Задача 5</b></label><br>
+        <label>Введите число</label> <input type = "text" name = "num1" class = "mrg"><br>
+        <input type="submit" value = "Ok"> <input type = "reset" value = "Отмена" class = "">
+    </form>
+</body>
+</html>
